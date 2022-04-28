@@ -10,15 +10,15 @@ public class Sparrow extends Bird {
 	
 	// 메소드 일반
 	public void sing() {
-    	System.out.println("참새(" + super.getName() + ")가 소리내어 웁니다.");
+    	System.out.println("참새(" + super.name + ")가 소리내어 웁니다.");
     }
 
     public void fly() {
-    	System.out.println("참새(" + super.getName() + ")가 날아 다닙니다.");
+    	System.out.println("참새(" + super.name + ")가 날아 다닙니다.");
     }
     
     public void showName() {
-    	System.out.println("참새의 이름은 " + super.getName() +  "입니다.");
+    	System.out.println("참새의 이름은 " + super.name +  "입니다.");
     }
 	
 	

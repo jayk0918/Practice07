@@ -4,7 +4,7 @@ public abstract class Bird {
 	// abstract -> 추상클래스
 	
 	// 필드
-    private String name;
+    protected String name;
     
     // 생성자
     Bird(){}
